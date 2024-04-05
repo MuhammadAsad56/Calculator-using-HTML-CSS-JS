@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+#main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(96, 89, 89, 0.184);
+    border-radius: 17px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+#display {
+    border-radius: 11px;
+    width: 95%;
+    padding: 10px;
+    font-size: 3.5rem;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.846);
+}
+#btn {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 37px;
+}
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.478);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+button:active {
+    background-color: rgba(0, 0, 0, 0.362);
+}
+.assignment {
+    background-color: #ffa500;
+}
+.assignment:hover {
+    background-color: #fbb83c;
+}
+.assignment:active {
+    background-color: #ffa806;
+}
+@media only screen and (max-width: 450px) {
+    .header {
+        display: none;
+    }
+}
